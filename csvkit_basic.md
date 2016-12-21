@@ -34,8 +34,15 @@
 - 데이터의 열이 같은 2개의 파일을 묶어준다.(aggregate)
 - ```csvstack A.csv B.csv > RESULT.csv```
 
+### csvsql
+- csvkit로 충분하지 않을 때, sql문을 이용한다.
+- ``` csvsql --db sqlite:///leso.db --insert joined.csv```
+
+### sql2csv
+- ``` sql2csv --db sqlite:///leso.db --query "SELECT * FROM joined"```
+
 ### flags
 - -c COLUMN_NAME
 - -m STRING_WHICH_WANT_TO_MATH
 - -g GROUPING
-  - grouping column to each row. 
+  - grouping column to each row.
