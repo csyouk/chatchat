@@ -9,7 +9,7 @@ elif l > 16:
 else:
     pass
 
-with open('encrypted.txt', 'rb') as f:
+with open('encrypted', 'rb') as f:
     data = f.read()
 
 

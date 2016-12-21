@@ -17,6 +17,6 @@ with open('chat.csv', 'r') as f:
 
 cipher_text = encryption_suite.encrypt(data)
 
-ciphered_txt = open("encrypted.txt", 'wb')
+ciphered_txt = open("encrypted", 'wb')
 ciphered_txt.write(cipher_text)
 ciphered_txt.close()
