@@ -10,3 +10,4 @@
 * pip install pycrypto
 * chat.csv is encrypted using Pycrypto. So if you want to show the decrypted messages, you should decrypting it.
 * python3 encryption.py and input pw to encrypt
+* python3 decryption.py and input pw to decrypt
